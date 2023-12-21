@@ -1,0 +1,27 @@
+Contrast stretching, also known as intensity rescaling or normalization, is a technique used in image processing to enhance the contrast of an image by stretching the range of pixel intensity values. The goal is to make the darker areas of the image darker and the brighter areas brighter, thereby improving the visibility of details.
+
+The basic idea behind contrast stretching is to map the original intensity values of the image to a new range that covers the full available intensity range. This is typically done using a linear transformation. The formula for the contrast stretching transformation is as follows:
+
+\[ I_{\text{new}} = \frac{{I - I_{\text{min}}}}{{I_{\text{max}} - I_{\text{min}}}} \times (L - 1) \]
+
+where:
+- \(I\) is the original intensity value of a pixel.
+- \(I_{\text{min}}\) is the minimum intensity value in the image.
+- \(I_{\text{max}}\) is the maximum intensity value in the image.
+- \(L\) is the maximum intensity value after stretching (e.g., 255 for an 8-bit image).
+- \(I_{\text{new}}\) is the transformed intensity value after contrast stretching.
+
+The transformation is applied to each pixel in the image. The result is that the original intensity values are spread out over a wider range, which often leads to a visually improved image with enhanced contrast.
+
+Here are the key steps involved in contrast stretching:
+
+1. **Compute the Minimum and Maximum Intensity Values:**
+   - Calculate the minimum (\(I_{\text{min}}\)) and maximum (\(I_{\text{max}}\)) intensity values in the image.
+
+2. **Apply Contrast Stretching Transformation:**
+   - Use the contrast stretching formula to transform each pixel's intensity value.
+
+3. **Generate the Stretched Image:**
+   - Replace the original intensity values in the image with their corresponding values after applying the contrast stretching transformation.
+
+The result of contrast stretching is an image with an expanded intensity range, leading to improved visibility of details and a more visually appealing appearance. This technique is commonly used in image preprocessing and enhancement to improve the overall quality of images, especially when the original images have low contrast.
