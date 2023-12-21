@@ -1,0 +1,32 @@
+Gamma correction, also known as gamma adjustment or gamma encoding, is a nonlinear operation applied to the pixel values of an image to compensate for the nonlinear way in which humans perceive brightness. It is a crucial step in image processing to ensure that the displayed or printed image appears perceptually consistent and retains details across different devices.
+
+The relationship between the intensity of light emitted or reflected by a pixel and the corresponding digital value assigned to that pixel is often nonlinear. The gamma correction aims to correct this nonlinearity by applying a power-law function to the pixel values. The general formula for gamma correction is:
+
+\[ I_{\text{corrected}} = I_{\text{original}}^\gamma \]
+
+where:
+- \(I_{\text{corrected}}\) is the corrected pixel intensity.
+- \(I_{\text{original}}\) is the original pixel intensity.
+- \(\gamma\) is the gamma value.
+
+Here are some key points about gamma correction:
+
+1. **Gamma Value:**
+   - The gamma value (\(\gamma\)) determines the degree of correction. It is typically a positive real number. A gamma value less than 1 will lighten the image, while a gamma value greater than 1 will darken it.
+
+2. **Gamma Encoding and Decoding:**
+   - Gamma correction is applied during encoding (capturing or creating the image) and decoding (displaying or reproducing the image). If gamma correction is not properly applied during both stages, the displayed image may appear too dark or too bright.
+
+3. **Human Perception:**
+   - Gamma correction is based on the nonlinear nature of human vision. Our eyes perceive changes in brightness logarithmically rather than linearly. Gamma correction helps to compensate for this perceptual nonlinearity.
+
+4. **Importance in Display Devices:**
+   - Display devices such as monitors and televisions often apply gamma correction to ensure that images appear visually consistent across different devices. Standard gamma values include 2.2 for typical displays and 2.4 for certain broadcast standards.
+
+5. **Image File Formats:**
+   - Some image file formats, such as JPEG, include gamma information in their metadata to help with correct rendering on different devices.
+
+6. **Gamma Correction in Computer Graphics:**
+   - Gamma correction is also important in computer graphics to ensure that rendered images appear correctly on various displays.
+
+Gamma correction is a critical aspect of image processing and ensures that images are displayed and reproduced with consistent brightness and contrast across different devices and viewing conditions. It plays a crucial role in achieving perceptual uniformity in digital imaging.
