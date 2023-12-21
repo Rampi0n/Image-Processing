@@ -11,7 +11,7 @@ For an 8-bit image, each pixel value is represented using 8 bits. For example, t
 Bit Plane Slicing:
 
 Bit plane slicing involves separating the bits of each pixel into different planes, where each plane represents a specific bit position.
-The bit planes are usually organized from the most significant bit (MSB) to the least significant bit (LSB).
+The bit planes are usually organized from the most significant bit  to the least significant bit.
 Visualization:
 
 Each bit plane can be treated as a binary image. By combining these bit planes, the original image can be reconstructed.
