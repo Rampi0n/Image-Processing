@@ -15,13 +15,13 @@ The transformation is applied to each pixel in the image. The result is that the
 
 Here are the key steps involved in contrast stretching:
 
-1. **Compute the Minimum and Maximum Intensity Values:**
+1. Compute the Minimum and Maximum Intensity Values:
    - Calculate the minimum (\(I_{\text{min}}\)) and maximum (\(I_{\text{max}}\)) intensity values in the image.
 
-2. **Apply Contrast Stretching Transformation:**
+2. Apply Contrast Stretching Transformation:
    - Use the contrast stretching formula to transform each pixel's intensity value.
 
-3. **Generate the Stretched Image:**
+3. Generate the Stretched Image:
    - Replace the original intensity values in the image with their corresponding values after applying the contrast stretching transformation.
 
 The result of contrast stretching is an image with an expanded intensity range, leading to improved visibility of details and a more visually appealing appearance. This technique is commonly used in image preprocessing and enhancement to improve the overall quality of images, especially when the original images have low contrast.
