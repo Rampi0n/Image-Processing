@@ -1,0 +1,16 @@
+Normalization and standardization are both techniques used to preprocess numerical data before feeding it into a machine learning algorithm. They aim to make the data more suitable for the learning process, but they do so in slightly different ways.
+
+Normalization:
+
+In normalization, the data is rescaled so that it ranges from 0 to 1.
+It is useful when the values of features vary widely in scale.
+It is also helpful when the algorithm being used requires features to be on a similar scale.
+Common normalization techniques include Min-Max scaling and feature scaling.
+Standardization:
+
+In standardization, the data is rescaled so that it has a mean of 0 and a standard deviation of 1.
+It is useful when the features have different units or different distributions.
+It centers the data around 0, which is more suitable for many optimization algorithms.
+It is less influenced by outliers compared to normalization.
+Common standardization techniques include z-score normalization or feature scaling by the mean and standard deviation.
+In summary, while both techniques aim to make the data more suitable for machine learning, normalization rescales the data to a specific range, while standardization centers the data around 0 with a unit standard deviation. The choice between the two depends on the specific characteristics of the data and the requirements of the machine learning algorithm being used.
