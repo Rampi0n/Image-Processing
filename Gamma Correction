@@ -11,22 +11,22 @@ where:
 
 Here are some key points about gamma correction:
 
-1. **Gamma Value:**
+1. Gamma Value:
    - The gamma value (\(\gamma\)) determines the degree of correction. It is typically a positive real number. A gamma value less than 1 will lighten the image, while a gamma value greater than 1 will darken it.
 
-2. **Gamma Encoding and Decoding:**
+2. Gamma Encoding and Decoding:
    - Gamma correction is applied during encoding (capturing or creating the image) and decoding (displaying or reproducing the image). If gamma correction is not properly applied during both stages, the displayed image may appear too dark or too bright.
 
-3. **Human Perception:**
+3. Human Perception:
    - Gamma correction is based on the nonlinear nature of human vision. Our eyes perceive changes in brightness logarithmically rather than linearly. Gamma correction helps to compensate for this perceptual nonlinearity.
 
-4. **Importance in Display Devices:**
+4. Importance in Display Devices:
    - Display devices such as monitors and televisions often apply gamma correction to ensure that images appear visually consistent across different devices. Standard gamma values include 2.2 for typical displays and 2.4 for certain broadcast standards.
 
-5. **Image File Formats:**
+5. Image File Formats:
    - Some image file formats, such as JPEG, include gamma information in their metadata to help with correct rendering on different devices.
 
-6. **Gamma Correction in Computer Graphics:**
+6. Gamma Correction in Computer Graphics:
    - Gamma correction is also important in computer graphics to ensure that rendered images appear correctly on various displays.
 
 Gamma correction is a critical aspect of image processing and ensures that images are displayed and reproduced with consistent brightness and contrast across different devices and viewing conditions. It plays a crucial role in achieving perceptual uniformity in digital imaging.
