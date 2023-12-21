@@ -2,19 +2,19 @@ Histogram equalization is a technique used in image processing to enhance the co
 
 Here are the key steps involved in histogram equalization:
 
-1. **Compute the Histogram:**
+1. Compute the Histogram:**
    - Calculate the histogram of the input image. The histogram represents the distribution of pixel intensities in the image.
 
-2. **Compute the Cumulative Distribution Function (CDF):**
+2. Compute the Cumulative Distribution Function (CDF):
    - Compute the cumulative distribution function from the histogram. The CDF gives the cumulative sum of histogram values and represents the transformation to be applied.
 
-3. **Normalize the CDF:**
+3. Normalize the CDF:
    - Normalize the CDF to scale it to the range [0, 255] (or the dynamic range of the pixel values in the image). This step ensures that the new intensity values will be in a valid range.
 
-4. **Map Original Intensities to New Intensities:**
+4. Map Original Intensities to New Intensities:
    - Map the original intensity values of the pixels in the image to their corresponding values in the normalized CDF. This mapping effectively redistributes the pixel intensities to achieve a more uniform distribution.
 
-5. **Generate the Equalized Image:**
+5. Generate the Equalized Image:
    - Replace the original intensity values in the image with their corresponding values from the normalized CDF. This results in an equalized image with improved contrast.
 
 The main advantage of histogram equalization is that it can enhance the visibility of details in images with poor contrast. It is especially effective when an image has a narrow intensity range, as it spreads out the intensity values across a broader range. However, it's worth noting that histogram equalization may also amplify the noise in the image.
