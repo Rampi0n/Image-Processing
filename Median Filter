@@ -2,16 +2,16 @@ A median filter is a non-linear digital filtering technique used in image proces
 
 Here are the key steps involved in applying a median filter:
 
-1. **Define a Window (or Kernel):**
+1. Define a Window (or Kernel):
    - Choose a square or rectangular window (also called a kernel) of a specified size. Common window sizes are 3x3, 5x5, 7x7, etc. The size of the window determines the neighborhood of each pixel.
 
-2. **Place the Window Over Each Pixel:**
+2. Place the Window Over Each Pixel:
    - Move the window over each pixel in the image, and for each position, consider the pixel values within the window.
 
-3. **Sort Pixel Values:**
+3. Sort Pixel Values:
    - Arrange the pixel values within the window in ascending order.
 
-4. **Replace Pixel Value:**
+4. Replace Pixel Value:
    - Replace the intensity value of the central pixel with the median value of the sorted pixel values.
 
 The median filter is particularly effective in removing outliers and impulse noise because the median value is less sensitive to extreme values than the mean. This makes it robust in the presence of salt-and-pepper noise, where a few extremely bright or dark pixels can significantly affect the mean but have little impact on the median.
