@@ -20,12 +20,12 @@ The Sobel filter is particularly effective at detecting edges because it respond
 
 Here are some key characteristics of the Sobel filter:
 
-1. Edge Enhancement: The Sobel filter enhances the edges in an image by emphasizing areas with rapid changes in intensity.
+1.Edge Enhancement: The Sobel filter enhances the edges in an image by emphasizing areas with rapid changes in intensity.
 
-2. Noise Sensitivity: Like many gradient-based edge detectors, the Sobel filter can be sensitive to noise. Smoothing the image before applying the Sobel filter is a common practice to reduce the impact of noise.
+2.Noise Sensitivity: Like many gradient-based edge detectors, the Sobel filter can be sensitive to noise. Smoothing the image before applying the Sobel filter is a common practice to reduce the impact of noise.
 
-3. Orientation Information: The Sobel filter provides information about the orientation of edges in addition to their strength.
+3.Orientation Information: The Sobel filter provides information about the orientation of edges in addition to their strength.
 
-4. Real-Time Applications: The Sobel filter is computationally efficient and is often used in real-time applications for edge detection.
+4.Real-Time Applications: The Sobel filter is computationally efficient and is often used in real-time applications for edge detection.
 
 The Sobel filter is a fundamental tool in image processing and is frequently employed in various computer vision tasks, such as object detection, image segmentation, and feature extraction. It is part of a family of gradient-based edge detectors that includes other operators like Prewitt and Roberts.
