@@ -1,0 +1,22 @@
+The contraharmonic mean is a type of statistical measure used in image processing and signal processing. It is particularly useful for filtering out noise in images and estimating the central value of a set of data points. The contraharmonic mean is denoted as \( Q_{\text{CHM}}(x) \) and is defined by the formula:
+
+\[ Q_{\text{CHM}}(x) = \frac{\sum_{i=1}^{n} x_i^{Q+1}}{\sum_{i=1}^{n} x_i^{Q}} \]
+
+where:
+- \( n \) is the number of data points,
+- \( x_i \) is the \(i\)-th data point,
+- \( Q \) is the order of the contraharmonic mean.
+
+The contraharmonic mean is an extension of the arithmetic mean and is sensitive to the order \( Q \) chosen. Depending on the value of \( Q \), the contraharmonic mean exhibits different properties:
+
+1. **When \( Q = -1 \): The contraharmonic mean becomes the harmonic mean, which is suitable for reducing the impact of outliers.
+
+2. **When \( Q = 0 \): The contraharmonic mean becomes the arithmetic mean, which is less sensitive to outliers compared to the harmonic mean.
+
+3. **When \( Q = 1 \): The contraharmonic mean becomes the quadratic mean or root mean square, which emphasizes larger values and is commonly used in signal processing.
+
+4. **When \( Q = 2 \): The contraharmonic mean becomes the arithmetic mean of the squared values, which is often used for image processing, especially in the context of noise reduction.
+
+The contraharmonic mean is particularly employed in image processing for noise reduction purposes, where it is used as a filter to reduce the impact of salt-and-pepper noise. By adjusting the order \( Q \), the filter can be tuned to be more biased toward eliminating either positive or negative outliers.
+
+In summary, the contraharmonic mean is a statistical measure that is sensitive to the order parameter \( Q \) and finds applications in noise reduction, particularly in the context of image processing.
